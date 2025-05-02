@@ -1,0 +1,16 @@
+mkdir palpite-bot-api
+cd palpite-bot-api
+
+# Crie o arquivo main.py com o código da API
+touch main.py
+# Cole o código Python que criamos (com Dockerfile, requirements.txt, etc)
+
+# Crie os arquivos auxiliares
+touch requirements.txt Dockerfile
+
+# (Opcional) Inicie git e envie para o GitHub
+git init
+git remote add origin https://github.com/SEU_USUARIO/palpite-bot-api.git
+git add .
+git commit -m "API do PalpiteBot"
+git push -u origin master
