@@ -1,18 +1,17 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
 
-# Other files and folders
-.settings/
+mkdir palpite-bot-api
+cd palpite-bot-api
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Crie o arquivo main.py com o código da API
+touch main.py
+# Cole o código Python que criamos (com Dockerfile, requirements.txt, etc)
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Crie os arquivos auxiliares
+touch requirements.txt Dockerfile
+
+# (Opcional) Inicie git e envie para o GitHub
+git init
+git remote add origin https://github.com/SEU_USUARIO/palpite-bot-api.git
+git add .
+git commit -m "API do PalpiteBot"
+git push -u origin master
