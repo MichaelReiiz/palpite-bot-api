@@ -1,0 +1,12 @@
+cd ..
+npx create-react-app palpite-bot-frontend
+cd palpite-bot-frontend
+
+# Cole o código React da interface que criamos
+
+# Inicie Git e envie
+git init
+git remote add origin https://github.com/SEU_USUARIO/palpite-bot-frontend.git
+git add .
+git commit -m "Frontend do PalpiteBot"
+git push -u origin master
